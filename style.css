@@ -21,6 +21,19 @@ h1 {
   color:lawngreen;
 }
 
+h3 {
+  margin-top: 50px;
+  color: #f5f5f5;;
+}
+
+span {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #f5f5f5;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -77,14 +90,6 @@ h1 {
   border: 1px solid rgb(226, 0, 219);
   /* border-bottom: 3px solid rgb(226, 0, 219); */
   border-radius: 8px;
-}
-
-span {
-  padding-left: 15px;
-  padding-right: 15px;
-  color: #f5f5f5;
-  font-size: 1.5em;
-  font-weight: 900;
 }
 
 #playerX {
