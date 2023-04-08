@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
   <title>Tic Tac Toe</title>
 </head>
@@ -14,30 +20,34 @@
     <h1>Tic Tac Toe</h1>
     
     <div class="grid-container">
-      <div class="grid-box" id="item1">X</div>
-      <div class="grid-box" id="item2">X</div>
-      <div class="grid-box" id="item3">X</div>
-      <div class="grid-box" id="item4">O</div>
-      <div class="grid-box" id="item5">X</div>
-      <div class="grid-box" id="item6">O</div>
-      <div class="grid-box" id="item7">O</div>
-      <div class="grid-box" id="item8">O</div>
-      <div class="grid-box" id="item9">O</div>
+      <div class="grid-box" id="item1"></div>
+      <div class="grid-box" id="item2"></div>
+      <div class="grid-box" id="item3"></div>
+      <div class="grid-box" id="item4"></div>
+      <div class="grid-box" id="item5"></div>
+      <div class="grid-box" id="item6"></div>
+      <div class="grid-box" id="item7"></div>
+      <div class="grid-box" id="item8"></div>
+      <div class="grid-box" id="item9"></div>
     </div>
 
     <div class="score-container">
 
       <div class="x">
-        <span id="playerX">X</span> <span class="score">1</span>
+        <button class="btn btn-x"><i class="fa-solid fa-x" id="playerX"></i></button>
+        <span class="score" id="score-x">--</span>
       </div>
 
       <div class="o">
-        <span id="playerO">O</span> <span class="score">2</span>
+        <button class=" btn btn-o"><i class="fa-solid fa-o" id="playerO"></i></button>
+        <span class="score" id="score-o">--</span>
       </div>
 
     </div>
 
-    <h3>Restart Game</h3>
+    <h3> <i class="fa-solid fa-play"></i> New Game</h3>
+    
+    <p>Choose "X" or "O" by clicking on the icon. <br/> Clicking the icon before the start of each game also determines who goes first. <br/> Wins are recorded on the right side. </p>
     
   </div>
 
